@@ -1,0 +1,12 @@
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\bin\Debug\net5.0\ESourcing.Core.deps.json
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\bin\Debug\net5.0\ESourcing.Core.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\bin\Debug\net5.0\ESourcing.Core.pdb
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.GeneratedMSBuildEditorConfig.editorconfig
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.AssemblyInfoInputs.cache
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.AssemblyInfo.cs
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.csproj.CoreCompileInputs.cache
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ref\ESourcing.Core.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.pdb
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\ESourcing.Core.csproj.AssemblyReference.cache
+V:\aMicroServiceUdemy\E-SourcingMicroService\ESourcing.Core\obj\Debug\net5.0\refint\ESourcing.Core.dll

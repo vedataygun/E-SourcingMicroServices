@@ -1,0 +1,11 @@
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\Ordering.Domain.deps.json
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\Ordering.Domain.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\ref\Ordering.Domain.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\Ordering.Domain.pdb
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.AssemblyInfoInputs.cache
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.AssemblyInfo.cs
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\ref\Ordering.Domain.dll
+V:\aMicroServiceUdemy\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.pdb

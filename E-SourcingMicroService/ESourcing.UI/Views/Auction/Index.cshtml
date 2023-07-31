@@ -1,0 +1,57 @@
+﻿@model IEnumerable<AuctionViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Active Auction List</h3>
+            </div>
+            <div class="card-body">
+                <table id="example1" class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Quantity</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model)
+                        {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.StartedAt.ToShortDateString()</td>
+                            <td>@item.FinishedAt.ToShortDateString()</td>
+                            <td>
+                                @if (item.Status == 0)
+                                {
+                                    <a asp-controller="Auction" asp-action="Detail" asp-route-Id="@item.Id" class="btn btn-warning text-white " style="font-size: 13px;  padding: 6px 0; width: 100px; ">Detail</a>
+                                }
+                                 else
+                                {
+                                    <a onclick="return false" class="btn  text-white" style="font-size: 13px; background-color: #ff8e8e; cursor: default; padding: 6px 0; width: 100px;" disabled>Closed</a>
+                                }
+
+                            </td>
+                        </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

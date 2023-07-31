@@ -1,0 +1,67 @@
+﻿@model AuctionBidsViewModel
+
+
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card card-primary">
+            <div class="card-header">
+                <h3 class="card-title">Quick Auction</h3>
+            </div>
+            <form method="post">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="exampleInputPrice">Price</label>
+                        <input type="number" min="0" class="form-control" id="exampleInputPrice" placeholder="Enter Price" />
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" id="sendButton" class="btn btn-primary">Submit</button>
+                    <button type="submit" id="finishButton" class="btn btn-primary">Finish RFQ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div style="background-color:darkgrey; color:white;" class="card-header">
+            <h3 class="card-title">Active Auction Detail</h3>
+        </div>
+        @Html.HiddenFor(x => x.ID, new { id = "AuctionId" } /*AuctionId*/)
+        @Html.HiddenFor(x => x.ProductId)
+        @Html.HiddenFor(x => x.SellerUserName)
+        @Html.HiddenFor(x => x.Email)
+
+        <div class="card-body mt-2" style="padding:0;">
+            <table id="exampleAuction" class="table table-bordered table-hover">
+                <thead>
+                    <tr style="background-color:skyblue; color:papayawhip;">
+                        <th>Auction User Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody class="bidLine">
+                    @if (Model.Bids.Any())
+                    {
+                        @foreach (var item in Model.Bids)
+                        {
+                            <tr>
+                                <td>@item.SellerUserName</td>
+                                <td>@item.Price $</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/lib/microsoft-signalr/signalr.js"></script>
+<script src="~/js/Views/RFQ/Detail.js"></script>
+
